@@ -5,9 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.app</groupId>
-        <artifactId>pro-dashboard-app</artifactId>
-        <version>1.0.0</version>
+       <groupId>com.app</groupId>
+       <artifactId>pro-dashboard-app</artifactId>
+       <version>1.0.0</version>
+       <relativePath>../pom.xml</relativePath> <!-- IMPORTANT -->
     </parent>
 
     <artifactId>ui-client</artifactId>
